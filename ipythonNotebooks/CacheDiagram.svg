@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="28cm" height="24cm" viewBox="33 19 553 469" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="269.775" y="20" width="107.1" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="269.775" y="20" width="107.1" height="70"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="323.325" y="42.9">
+      <tspan x="323.325" y="42.9">Base caching</tspan>
+      <tspan x="323.325" y="58.9">directory</tspan>
+      <tspan x="323.325" y="74.9">(no key)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="128.95" y="162.244" width="162.1" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="128.95" y="162.244" width="162.1" height="70"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210" y="185.144">
+      <tspan x="210" y="185.144">Code-level</tspan>
+      <tspan x="210" y="201.144">cache set</tspan>
+      <tspan x="210" y="217.144">(hash of parsed code)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="385.4" y="162.244" width="162.1" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385.4" y="162.244" width="162.1" height="70"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="466.45" y="185.144">
+      <tspan x="466.45" y="185.144">Code-level</tspan>
+      <tspan x="466.45" y="201.144">cache set</tspan>
+      <tspan x="466.45" y="217.144">(hash of parsed code)</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="294.648" y1="90.9951" x2="244.744" y2="153.634"/>
+    <polygon style="fill: #000000" points="240.07,159.5 242.391,148.563 244.744,153.634 250.212,154.794 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="240.07,159.5 242.391,148.563 244.744,153.634 250.212,154.794 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="359.543" y1="90.9951" x2="423.326" y2="154.386"/>
+    <polygon style="fill: #000000" points="428.646,159.673 418.028,156.17 423.326,154.386 425.078,149.077 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="428.646,159.673 418.028,156.17 423.326,154.386 425.078,149.077 "/>
+  </g>
+  <text font-size="31.044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="315" y="201">
+    <tspan x="315" y="201">. . .</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="45.5178" y="271.125" width="105.6" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="45.5178" y="271.125" width="105.6" height="86"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="98.3178" y="294.025">
+      <tspan x="98.3178" y="294.025">inputs-level</tspan>
+      <tspan x="98.3178" y="310.025">cache</tspan>
+      <tspan x="98.3178" y="326.025">(hash of </tspan>
+      <tspan x="98.3178" y="342.025">input values)</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="98.3178,396.794 161.846,441.695 98.3178,486.595 34.7895,441.695 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="98.3178,396.794 161.846,441.695 98.3178,486.595 34.7895,441.695 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="98.3178" y="437.595">
+      <tspan x="98.3178" y="437.595">stored</tspan>
+      <tspan x="98.3178" y="453.595">results</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="98.3178" y1="358.117" x2="98.3178" y2="386.058"/>
+    <polygon style="fill: #000000" points="98.3178,393.558 93.3178,383.558 98.3178,386.058 103.318,383.558 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="98.3178,393.558 93.3178,383.558 98.3178,386.058 103.318,383.558 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="175.617" y1="233.227" x2="147.061" y2="263.113"/>
+    <polygon style="fill: #000000" points="141.88,268.535 145.173,257.851 147.061,263.113 152.403,264.759 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="141.88,268.535 145.173,257.851 147.061,263.113 152.403,264.759 "/>
+  </g>
+  <text font-size="31.044" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="178.4" y="329.747">
+    <tspan x="178.4" y="329.747">. . .</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="260.128" y="271.125" width="105.6" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260.128" y="271.125" width="105.6" height="86"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="312.928" y="294.025">
+      <tspan x="312.928" y="294.025">inputs-level</tspan>
+      <tspan x="312.928" y="310.025">cache</tspan>
+      <tspan x="312.928" y="326.025">(hash of </tspan>
+      <tspan x="312.928" y="342.025">input values)</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="312.928,396.794 376.457,441.695 312.928,486.595 249.4,441.695 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="312.928,396.794 376.457,441.695 312.928,486.595 249.4,441.695 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="312.928" y="437.595">
+      <tspan x="312.928" y="437.595">stored</tspan>
+      <tspan x="312.928" y="453.595">results</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="312.928" y1="358.117" x2="312.928" y2="386.058"/>
+    <polygon style="fill: #000000" points="312.928,393.558 307.928,383.558 312.928,386.058 317.928,383.558 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="312.928,393.558 307.928,383.558 312.928,386.058 317.928,383.558 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="241.688" y1="233.227" x2="267.77" y2="262.845"/>
+    <polygon style="fill: #000000" points="272.727,268.474 262.365,264.273 267.77,262.845 269.87,257.665 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="272.727,268.474 262.365,264.273 267.77,262.845 269.87,257.665 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="468.528" y="271.125" width="105.6" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="468.528" y="271.125" width="105.6" height="86"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="521.328" y="294.025">
+      <tspan x="521.328" y="294.025">inputs-level</tspan>
+      <tspan x="521.328" y="310.025">cache</tspan>
+      <tspan x="521.328" y="326.025">(hash of </tspan>
+      <tspan x="521.328" y="342.025">input values)</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="521.328,396.794 584.857,441.695 521.328,486.595 457.8,441.695 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="521.328,396.794 584.857,441.695 521.328,486.595 457.8,441.695 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="521.328" y="437.595">
+      <tspan x="521.328" y="437.595">stored</tspan>
+      <tspan x="521.328" y="453.595">results</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="521.328" y1="358.117" x2="521.328" y2="386.058"/>
+    <polygon style="fill: #000000" points="521.328,393.558 516.328,383.558 521.328,386.058 526.328,383.558 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="521.328,393.558 516.328,383.558 521.328,386.058 526.328,383.558 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="483.345" y1="233.227" x2="496.544" y2="261.339"/>
+    <polygon style="fill: #000000" points="499.732,268.128 490.956,261.201 496.544,261.339 500.007,256.951 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="499.732,268.128 490.956,261.201 496.544,261.339 500.007,256.951 "/>
+  </g>
+</svg>

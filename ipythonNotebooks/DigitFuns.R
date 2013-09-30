@@ -47,5 +47,6 @@ load_digit_data = function(train_per_digit = 50, test_per_digit = 100)
     testvals = test[unlist(inds2),]
     assign("train", train, .GlobalEnv)
     assign("testvals", testvals, .GlobalEnv)
+    assign("testTruth", testvals$label, .GlobalEnv)
     invisible(NULL)
 }

@@ -35,18 +35,22 @@ getRates = function(preds, true)
     list(abs_dig = by_dig, rel_dig = rel_dig, overall = all)
 }
 
-load_digit_data = function(train_per_digit = 50, test_per_digit = 100)
+
+load_train_data = function(per_digit = 50)
 {
     if(!exists("sampleTrain"))
         load("digitsTrain.rda")
+    inds = lapply(split(seq(1, nrow(sampleTrain)), sampleTrain$label), sample, size=per_digit)
+    train = sampleTrain[unlist(inds), ]
+    train
+}
+
+load_test_data = function(per_digit = 100)
+{
     if(!exists("test"))
         load("digitsKnownTest.rda")
-    inds = lapply(split(seq(1, nrow(sampleTrain)), sampleTrain$label), sample, size=train_per_digit)
-    train = sampleTrain[unlist(inds), ]
-    inds2 = lapply(split(seq(1, nrow(test)), test$label), sample, size = test_per_digit)
+    
+    inds2 = lapply(split(seq(1, nrow(test)), test$label), sample, size = per_digit)
     testvals = test[unlist(inds2),]
-    assign("train", train, .GlobalEnv)
-    assign("testvals", testvals, .GlobalEnv)
-    assign("testTruth", testvals$label, .GlobalEnv)
-    invisible(NULL)
+    testvals
 }
